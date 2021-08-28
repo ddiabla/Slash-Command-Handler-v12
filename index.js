@@ -3,6 +3,7 @@
 * ClientID = El ID de tu bot.
 * GuildID = El ID del servidor.
 */
+const fs = require('fs') //obviamente requerimos fs para esto.
 const Discord = require('discord.js);//Necesitas la librería de Discord, (v12.5.3).
 const client = new Discord.Client();
 
